@@ -9,10 +9,16 @@
 ;Unique Vendor name
 :"BUTE_DAAI"
 
-;Supports S60 release 3.0
-[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+; Supports S60 v 3.0 
+[0x101F7961], 0, 0, 0, {"S60ProductID"} 
 
 ;Supports S60 release 5.0
-[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+[0x1028315F], 0, 0, 0, {"S60ProductID"}
+
+;Supports Symbian^3 and Anna
+[0x20022E6D], 0, 0, 0, {"S60ProductID"}
+
+;Supports Symbian Belle
+[0x2003A678], 0, 0, 0, {"S60ProductID"}
 
 "$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\KiLogger.dll"	-"!:\sys\bin\KiLogger.dll"
